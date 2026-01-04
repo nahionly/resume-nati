@@ -1,0 +1,169 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Online Student Clearance System",
+      "description": "A comprehensive MERN stack application for managing student clearance processes with role-based access control and automated workflow management.",
+      "tech": [
+        "React",
+        "Node.js",
+        "Express",                          
+        "MongoDB",
+        "JWT"
+      ],
+      "image": "/student-clearance-dashboard.jpg",
+      "githubUrl": "#",
+      "liveUrl": "#"
+    },
+    {
+      "id": "2",
+      "title": "Adama Administration Inventory Management",
+      "description": "Full-featured inventory management system with real-time tracking, analytics dashboard, and automated reporting for efficient resource management.",
+      "tech": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Chart.js"
+      ],
+      "image": "/inventory-management-system.png",
+      "githubUrl": "#",
+      "liveUrl": "#"
+    },
+    {
+      "id": "3",
+      "title": "Student Management System",
+      "description": "Complete student information system with grade management, attendance tracking, and parent portal integration for seamless communication.",
+      "tech": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Socket.io"
+      ],
+      "image": "/student-management-dashboard.png",
+      "githubUrl": "#",
+      "liveUrl": "#"
+    },
+    {
+      "id": "4",
+      "title": "Movie Reservation Management System",
+      "description": "Interactive movie booking platform with seat selection, payment integration, and real-time availability updates for theaters.",
+      "tech": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Stripe"
+      ],
+      "image": "/movie-ticket-booking-interface.jpg",
+      "githubUrl": "#",
+      "liveUrl": "#"
+    },
+    {
+      "id": "5",
+      "title": "Real-time Chat Application",
+      "description": "Feature-rich chat application with private messaging, group chats, file sharing, and real-time notifications using Socket.io.",
+      "tech": [
+        "React",
+        "Node.js",
+        "Socket.io",
+        "MongoDB",
+        "Express"
+      ],
+      "image": "/modern-chat-app.png",
+      "githubUrl": "#",
+      "liveUrl": "#"
+    },
+    {
+      "id": "6",
+      "title": "",
+      "description": "",
+      "tech": [],
+      "image": "",
+      "githubUrl": "",
+      "liveUrl": ""
+    },
+    {
+      "id": "de91bedf-2c82-46e1-95cf-d6dcbd1b4503",
+      "title": "",
+      "description": "",
+      "tech": [],
+      "githubUrl": "",
+      "liveUrl": "",
+      "image": ""
+    }
+  ],
+  "certificates": [
+    {
+      "id": "1",
+      "title": "good",
+      "issuer": "",
+      "date": "",
+      "category": "AI/ML",
+      "credentialUrl": "",
+      "organization": "no",
+      "issueDate": "2000-07-08",
+      "description": "nk,n,",
+      "certificateURL": "uploads\\1764882596124_aaa.jpg",
+      "verifyLink": "https://www.youtube.com/watch?v=AbKJdGr8M-4"
+    },
+    {
+      "id": "2",
+      "title": "MongoDB Certified Developer",
+      "issuer": "MongoDB University",
+      "date": "Dec 2023",
+      "category": "Database",
+      "credentialUrl": "https://university.mongodb.com"
+    },
+    {
+      "id": "2f5e1dec-dc1b-4921-8cb6-fb78cce0f92f",
+      "title": "",
+      "issuer": "",
+      "date": "",
+      "category": "Database",
+      "credentialUrl": ""
+    },
+    {
+      "id": "bb998a93-e499-49ec-87fa-fdda6c1100f5",
+      "title": "",
+      "organization": "",
+      "category": "",
+      "issueDate": "",
+      "description": "",
+      "verifyLink": ""
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "subject": "Project Collaboration",
+      "message": "Hi Nati, I came across your portfolio and I am impressed with your MERN stack projects. I would love to discuss a potential collaboration opportunity.",
+      "date": "2024-01-15",
+      "time": "10:30 AM",
+      "status": "unread"
+    },
+    {
+      "id": "2",
+      "name": "Sarah Smith",
+      "email": "sarah@techcorp.com",
+      "subject": "Job Opportunity",
+      "message": "Hello, we have an exciting full-stack developer position at our company. Your skills align perfectly with what we are looking for.",
+      "date": "2024-01-14",
+      "time": "2:15 PM",
+      "status": "read"
+    },
+    {
+      "id": "3",
+      "name": "Mike Johnson",
+      "email": "mike@startup.io",
+      "subject": "Freelance Project",
+      "message": "Hi Nati, we need help building a student management system similar to your clearance project. Are you available for freelance work?",
+      "date": "2024-01-13",
+      "time": "4:45 PM",
+      "status": "unread"
+    }
+  ]
+}

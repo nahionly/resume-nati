@@ -1,0 +1,25 @@
+services:
+  # Backend API Service
+  - type: web
+    name: resume-nati-backend
+    env: node
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      # Add your environment variables in Render dashboard:
+      # MONGO_URI, MONGODB_URI, ADMIN_USERNAME, ADMIN_PASSWORD, EMAIL_USER, EMAIL_PASS
+
+  # Frontend Static Site
+  - type: static
+    name: resume-nati-frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./out
+    envVars:
+      - key: NODE_ENV
+        value: production
+      # Add your backend API URL in Render dashboard:
+      # NEXT_PUBLIC_API_URL
